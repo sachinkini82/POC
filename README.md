@@ -11,3 +11,6 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 Create docker account:
 https://cloud.docker.com/
+
+Push Docker Image to Docker hub:
+https://docs.docker.com/docker-cloud/builds/push-images/
