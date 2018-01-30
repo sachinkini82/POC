@@ -8,3 +8,6 @@ https://spring.io/guides/gs/spring-boot-docker/
 Install docker:
 
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+Create docker account:
+https://cloud.docker.com/
