@@ -1,0 +1,14 @@
+Docker on AWS:
+
+Connect to AWS EC2 instance:(make sure you are cd to folder containing key i.e. "my-ec2-key-pair.ped, you can also see how to connect instructions on AWS console itself)
+ssh -i "my-ec2-key-pair.pem" ec2-user@ec2-18-219-74-114.us-east-2.compute.amazonaws.com
+
+Install Docker on EC2:
+sudo yum update -y
+sudo yum install -y docker
+
+to use docker command without sudo-
+sudo usermod -a -G docker ec2-user
+
+Start docker service:
+sudo service docker start
